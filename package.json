@@ -1,12 +1,25 @@
 {
   "name": "node-hello-world",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies":
+  {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "nodemon":"^2.0.5"
+  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aqkhan/express-hello-world.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aqkhan/express-hello-world/issues"
+  },
+  "homepage": "https://github.com/aqkhan/express-hello-world"
 }
